@@ -1,0 +1,127 @@
+/* STYLES */
+
+* {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #2d3c49;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+header {
+    padding-bottom: 1em;
+    border-bottom: 3px solid #7d97ad;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+h1,
+h2 {
+    text-align: right;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.mainImage {
+    padding-top: 1em;
+    width: 100%;
+    max-height: 950px;
+    opacity: 0.9;
+
+}
+
+.featured {
+    font-size: 1em;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectPreview {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 16px -8px rgba(0, 0, 0, 0.75);
+    margin-bottom: 1em;
+}
+
+figcaption {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .featured {
+        font-size: 1.82em;
+    }
+
+    .projects {
+        flex-direction: row;
+    }
+
+    figcaption {
+        font-size: 1em;
+
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    html {
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .featured {
+        font-size: 2em;
+    }
+
+    .projects {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    figcaption {
+        font-size: 1.25em;
+
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+
+}
